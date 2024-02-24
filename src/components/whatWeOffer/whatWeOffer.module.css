@@ -1,0 +1,25 @@
+/* whatWeOffer.module.css */
+
+.whatWeOffer {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offerItem {
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+.offerItem h2 {
+    color: #0b67bc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.offerItem p {
+    font-size: 16px;
+    line-height: 1.5;
+}
