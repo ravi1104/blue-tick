@@ -1,0 +1,41 @@
+/* navbar.module.css */
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarList img {
+    margin-right: 100px;
+    height: 30px;
+}
+
+.navbarList li {
+    margin-right: 20px;
+}
+
+.navbarList li:last-child {
+    margin-right: 0;
+}
+
+.navbarList li a {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navbarList li a:hover {
+    color: blueviolet;
+}
