@@ -29,6 +29,7 @@ form button[type="submit"] {
     color: #fff;
     width: 40vw;
     padding: 10px 20px;
+    margin: auto;
     border: none;
     border-radius: 5px;
     font-size: 16px;
