@@ -11,7 +11,7 @@ const Footer = () => {
 export default Footer;
 
 const footerStyle = {
-  backgroundColor: '#fff',
+  backgroundColor: '#f5f5f5',
   textAlign: 'center',
   padding: '1px',
 };
