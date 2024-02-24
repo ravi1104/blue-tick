@@ -1,0 +1,27 @@
+/* letsConnect.module.css */
+
+.letsConnect {
+    padding: 50px 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 100px;
+
+}
+
+.letsConnect img{
+    width: 20vw;
+}
+
+.letsConnect h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 700px; */
+    flex: 1;
+
+}
