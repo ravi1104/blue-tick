@@ -24,7 +24,7 @@ textarea {
 }
 
 form button[type="submit"] {
-    background-color: #007bff;
+    background-color: #8badd1;
     text-transform: uppercase;
     color: #fff;
     width: 40vw;
@@ -38,5 +38,5 @@ form button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
