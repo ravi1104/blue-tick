@@ -13,14 +13,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Open [https://blue-tick-kappa.vercel.app/](https://blue-tick-kappa.vercel.app/) to view live link.
 
 # folder Structure
--- src
-    --components
-        -- blogs
-        -- footer
-        -- heroSection
-        -- letsConnect
-        -- Navbar
-        -- WhatWeOffer
+-- src  
+    --components  
+        -- blogs  
+        -- footer  
+        -- heroSection  
+        -- letsConnect  
+        -- Navbar  
+        -- WhatWeOffer  
 
 
 ## Home Page Sections and Content 
