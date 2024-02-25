@@ -1,7 +1,9 @@
-import React from 'react';
-import styles from './navbar.module.css'; // Import CSS module for styling
+import React, { useState } from 'react';
+import styles from './navbar.module.css';
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false);
+
   const handleNavLinkClick = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -12,9 +14,13 @@ const Navbar = () => {
     }
   };
 
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   return (
     <nav className={styles.navbar}>
-      <ul className={styles.navbarList}>
+      <ul className={`${styles.navbarList} ${showLinks ? styles.active : ''}`}>
         <li>
           <img src='./bluetick-consultants.png' alt='logo' />
         </li>
@@ -31,6 +37,9 @@ const Navbar = () => {
           <a href="#lets-connect" onClick={(e) => { e.preventDefault(); handleNavLinkClick("lets-connect") }}>Let’s Connect</a>
         </li>
       </ul>
+      <div className={styles.navbarIcon} onClick={toggleLinks}>
+        <i className="fa-solid fa-list-ul"></i>
+      </div>
     </nav>
   );
 }

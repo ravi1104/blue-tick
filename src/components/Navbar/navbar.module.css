@@ -1,5 +1,3 @@
-/* navbar.module.css */
-
 .navbar {
     padding: 10px 0;
     /* position:fixed; */
@@ -39,4 +37,41 @@
 
 .navbarList li a:hover {
     color: blueviolet;
+}
+
+.navbarIcon {
+    font-size: 1.5rem;
+    padding-right: 10px;
+    display: none;
+}
+/* Display the navbar icon  and hide navbar list*/
+@media screen and (max-width: 768px) {
+    .navbarList {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+      }
+    
+      .navbarList.active {
+        display: flex;
+      }
+    
+      .navbarList li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    
+      .navbarIcon {
+        display: block;
+        text-align: right;
+      }
+
 }
