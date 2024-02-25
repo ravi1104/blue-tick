@@ -15,6 +15,7 @@
   }
   
   .heroContent h1 {
+    color: #444444;
     font-size: 36px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -23,6 +24,7 @@
   .heroContent p {
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .btn {
@@ -36,7 +38,7 @@
   }
   
   .btn:hover {
-    background-color: #007bff;
+    background-color: #0b67bc;
   }
   
   .heroImage img {

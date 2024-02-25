@@ -25,7 +25,7 @@
 }
 
 .navbarList li a {
-    color: black;
+    color: #444444;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 16px;
@@ -36,7 +36,7 @@
 }
 
 .navbarList li a:hover {
-    color: blueviolet;
+    color: #0b67bc;
 }
 
 .navbarIcon {

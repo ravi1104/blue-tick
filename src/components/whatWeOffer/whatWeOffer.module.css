@@ -11,14 +11,20 @@
 .offerItem {
     margin-bottom: 40px;
     width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .offerItem h2 {
     color: #0b67bc;
     font-size: 24px;
     margin-bottom: 10px;
+    border-bottom: 2px solid rgb(240, 239, 238);
 }
 
+.offerItem h2:hover{
+    border-bottom: 2px solid #0b67bc;
+    cursor: pointer;
+}
 .offerItem p {
     font-size: 16px;
     line-height: 1.5;

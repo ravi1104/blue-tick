@@ -15,17 +15,17 @@
   padding: 10px;
   border: 2px solid transparent;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 10px #0b67bc;
   transition: border-color 0.3s ease;
 }
 
 .blogItem:hover {
-  border-color: rgb(70, 68, 67);
+  border-color: #444444;
 }
 
 
 .blogItem h2 {
-  color: #0b67bc;
+  color: #444444;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -33,11 +33,12 @@
 .blogItem p {
   font-size: 16px;
   line-height: 1.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .redirect-link {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #0b67bc;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
