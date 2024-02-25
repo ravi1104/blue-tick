@@ -15,9 +15,9 @@ const App = () => {
       <HeroSection />
 
       <WhatWeOffer />
-      <h1 className='heading'>Explore and enjoy the blogs written by our passionate techies <i class="fa-brands fa-microblog"></i></h1>
+      <h1 className='heading'>Explore and enjoy the blogs written by our passionate techies <i className="fa-brands fa-microblog"></i></h1>
       <Blogs />
-      <h1 className='heading'> Let's Connect <i class="fa-regular fa-address-card"></i></h1>
+      <h1 className='heading'> Let's Connect <i className="fa-regular fa-address-card"></i></h1>
       
       <LetsConnect />
       <Footer />
